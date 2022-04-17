@@ -1,7 +1,7 @@
 ---
 title: "STAT 149: Generalized Linear Models"
 collection: teaching
-type: "Graduate course"
+type: "Undergraduate course"
 permalink: /teaching/2020-spring-teaching-1
 venue: "Harvard University"
 date: 2020-01-01
