@@ -9,3 +9,7 @@ redirect_from:
 
 
 This is a test page.
+
+
+Also testing tex?
+$\alpha + 7$
