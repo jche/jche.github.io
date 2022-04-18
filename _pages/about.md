@@ -8,8 +8,6 @@ redirect_from:
 ---
 
 
-This is a test page.
+TODO
 
-
-Also testing tex?
-$\alpha + 7$
+Test change

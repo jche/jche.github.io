@@ -1,0 +1,35 @@
+
+Jekyll cheatsheet
+
+The html coding stuff with braces is "Jekyll Liquid"
+ - See https://cloudcannon.com/community/learn/jekyll-tutorial/introduction-to-jekyll-includes/
+
+_navigation.yml for top-level structure
+_confit.yml for sidebar stuff
+
+
+ISSUES WITH INSTALLATION ON WINDOWS (resolved)
+ 
+Current issues: tried following https://jayrobwilliams.com/posts/2020/06/academic-website/
+ - Install of ruby 31 with devkit seems to work fine
+ - gem install bundler works fine
+ - bundle install breaks (can't install a bunch of packages)
+I've tried:
+ - launching the SYS application after installing ruby with devkit
+ - using 'bundle clean' before bundle install
+
+TODO: try https://programminghistorian.org/en/lessons/building-static-sites-with-jekyll-github-pages
+ - Note: need to run command prompt and git bash as administrator
+ - Note: need to manually install MSYS2 https://www.msys2.org/#installation
+Currently: can install jekyll, and bundle install works fine
+ - Issue: https://github.com/tzinfo/tzinfo/wiki/Resolving-TZInfo::DataSourceNotFound-Errors
+ - Weird... tzinfo-data gem is installed, but can't seem to find it?
+ - STUCK HERE for now
+
+TODO: potential issue, I accidentally installed things as admin and this is bad? (https://makandracards.com/makandra/1667-how-to-fix-gems-are-unavailable-although-they-are-installed)
+ - Might need to uninstall and retry?
+ - https://github.com/rubygems/bundler/issues/1767
+
+Removing the version specifications in the tzinfo-data line in the gemfile worked to some extent, new error now lol
+ - Need to install webrick https://github.com/jekyll/jekyll/issues/8523
+ - ...and it works now!
