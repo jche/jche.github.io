@@ -4,13 +4,15 @@ Jekyll cheatsheet
 The html coding stuff with braces is "Jekyll Liquid"
  - See https://cloudcannon.com/community/learn/jekyll-tutorial/introduction-to-jekyll-includes/
 
+Site settings:
 _data/navigation.yml for top-level structure
 _config.yml for sidebar stuff
 
-
+Content pages:
 _publications contains pages for "research" tab
+_publications_archive contains future pages for "research" tab
 _teaching contains pages for "teaching" tab
-
+_pages/about.md contains homepage description
 
 ISSUES WITH INSTALLATION ON WINDOWS (resolved)
  
