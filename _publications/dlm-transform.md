@@ -10,6 +10,8 @@ collaborators: 'Mark Glickman'
 description: "Bayesian dynamic linear model for rating Olympic athletes"
 ---
 
+[Presentation](https://www.youtube.com/watch?v=tDKFRmvmous) at New England Symposium on Statistics in Sports 2021
+
 Abstract: 
 Sports organizations often want to estimate athlete strengths.
 For games with scored outcomes, a common approach is to
