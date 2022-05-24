@@ -10,6 +10,8 @@ collaborators: 'Mark Glickman'
 description: "Bayesian dynamic linear model for rating Olympic athletes"
 ---
 
+[Link](https://arxiv.org/abs/2205.10746) to paper on Arxiv
+
 [Presentation](https://www.youtube.com/watch?v=tDKFRmvmous) at New England Symposium on Statistics in Sports 2021
 
 Abstract: 
