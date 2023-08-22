@@ -8,6 +8,6 @@ redirect_from:
 ---
 
 
-I'm a fifth-year PhD candidate in Statistics at Harvard University.
-My research interests include causal inference and Bayesian methods for applications in the social sciences and sports.
-I received my BA in Statistics and Mathematics from Amherst College in 2018.
+I'm an applied statistician with experience in A/B testing and advanced modeling (Bayesian modeling, machine learning).
+My research interests include causal inference and applied Bayesian methods for the social sciences and sports.
+I received my PhD in statistics from Harvard University in 2023 and my BA in statistics and mathematics from Amherst College in 2018.

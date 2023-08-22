@@ -11,24 +11,7 @@ collaborators: 'Joon-Ho Lee, Avi Feller, Sophia Rabe-Hesketh, Luke Miratrix'
 description: "Simulation study on use of multilevel models and targeted estimators for multisite trials in education"
 ---
 
+[Link](https://arxiv.org/abs/2308.06913) to paper on Arxiv
+
 Abstract:
-Modeling site-specific effects using observed data is a critical component in
-understanding the results of multisite trials. A standard approach leveraging
-Bayesian methods is to rely on Gaussian distributional assumptions and to use
-the posterior means (PM) of the random effects. The standard approach can be
-misleading, however, in the estimation of individual site-specific effects and their
-empirical distribution and ranks. In this chapter, we review the following two
-strategies developed to improve inferences regarding site-specific effects: (a)
-relaxing the normality assumption by flexible modeling of the random-effects
-distribution using Dirichlet process mixture (DPM) models, and (b) replacing the
-choice of PM as the summary of the posterior by alternative estimators, such as
-the constrained Bayes (CB) or the triple-goal (GR) estimators. We then examine
-when and to what extent the two strategies and combinations thereof work or fail
-under varying conditions. We found that the informativeness of the data is the
-most influential factor for all inferential goals and determines the effects of other
-factors. When the data are uninformative, specifying a flexible DPM model is not
-in general an effective strategy compared to a Gaussian model. A simple
-parametric model combined with a posterior summary method targeted toward
-an inferential goal performs better under the uninformative data environment.
-When data is informative, however, DPM models tend to outperform a Gaussian
-model particularly in estimating percentiles of the underlying distribution.
+In multisite trials, statistical goals often include obtaining individual site-specific treatment effects, determining their rankings, and examining their distribution across multiple sites. This paper explores two strategies for improving inferences related to site-specific effects: (a) semiparametric modeling of the prior distribution using Dirichlet process mixture (DPM) models to relax the normality assumption, and (b) using estimators other than the posterior mean, such as the constrained Bayes or triple-goal estimators, to summarize the posterior. We conduct a large-scale simulation study, calibrated to multisite trials common in education research. We then explore the conditions and degrees to which these strategies and their combinations succeed or falter in the limited data environments. We found that the average reliability of within-site effect estimates is crucial for determining effective estimation strategies. In settings with low-to-moderate data informativeness, flexible DPM models perform no better than the simple parametric Gaussian model coupled with a posterior summary method tailored to a specific inferential goal. DPM models outperform Gaussian models only in select high-information settings, indicating considerable sensitivity to the level of cross-site information available in the data. We discuss the implications of our findings for balancing trade-offs associated with shrinkage for the design and analysis of future multisite randomized experiments.
